@@ -52,12 +52,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o5prolte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/o5prolte/proprietary/lib/hw/camera.exynos3.so:system/lib/hw/camera.exynos3.so \
     vendor/samsung/o5prolte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/o5prolte/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     vendor/samsung/o5prolte/proprietary/lib/hw/gralloc.exynos3.so:system/lib/hw/gralloc.exynos3.so \
     vendor/samsung/o5prolte/proprietary/lib/hw/hwcomposer.exynos3.so:system/lib/hw/hwcomposer.exynos3.so \
     vendor/samsung/o5prolte/proprietary/lib/hw/keystore.exynos3475.so:system/lib/hw/keystore.exynos3475.so \
     vendor/samsung/o5prolte/proprietary/lib/hw/memtrack.exynos3.so:system/lib/hw/memtrack.exynos3.so \
     vendor/samsung/o5prolte/proprietary/lib/hw/sensors.universal3475.so:system/lib/hw/sensors.universal3475.so \
+    vendor/samsung/o5prolte/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
+    vendor/samsung/o5prolte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+    vendor/samsung/o5prolte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/o5prolte/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     vendor/samsung/o5prolte/proprietary/lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
     vendor/samsung/o5prolte/proprietary/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
@@ -74,6 +76,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o5prolte/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
     vendor/samsung/o5prolte/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
     vendor/samsung/o5prolte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    vendor/samsung/o5prolte/proprietary/lib/libion.so:system/lib/libion.so \
+    vendor/samsung/o5prolte/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
     vendor/samsung/o5prolte/proprietary/lib/libmpp.so:system/lib/libmpp.so \
     vendor/samsung/o5prolte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/o5prolte/proprietary/lib/libril.so:system/lib/libril.so \
@@ -84,6 +88,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o5prolte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/o5prolte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/o5prolte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
+    vendor/samsung/o5prolte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+    vendor/samsung/o5prolte/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/o5prolte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/o5prolte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/o5prolte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
