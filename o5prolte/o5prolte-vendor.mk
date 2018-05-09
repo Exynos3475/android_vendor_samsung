@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o5prolte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/o5prolte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/samsung/o5prolte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
-    vendor/samsung/o5prolte/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
     vendor/samsung/o5prolte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/o5prolte/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
     vendor/samsung/o5prolte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
@@ -76,8 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o5prolte/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
     vendor/samsung/o5prolte/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
     vendor/samsung/o5prolte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    vendor/samsung/o5prolte/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/samsung/o5prolte/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
     vendor/samsung/o5prolte/proprietary/lib/libmpp.so:system/lib/libmpp.so \
     vendor/samsung/o5prolte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/o5prolte/proprietary/lib/libril.so:system/lib/libril.so \
@@ -88,8 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o5prolte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/o5prolte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/o5prolte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    vendor/samsung/o5prolte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
-    vendor/samsung/o5prolte/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/o5prolte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/o5prolte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/o5prolte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
