@@ -52,14 +52,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o5prolte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/o5prolte/proprietary/lib/hw/camera.exynos3.so:system/lib/hw/camera.exynos3.so \
     vendor/samsung/o5prolte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/o5prolte/proprietary/lib/hw/gralloc.exynos3.so:system/lib/hw/gralloc.exynos3.so \
-    vendor/samsung/o5prolte/proprietary/lib/hw/hwcomposer.exynos3.so:system/lib/hw/hwcomposer.exynos3.so \
-    vendor/samsung/o5prolte/proprietary/lib/hw/keystore.exynos3475.so:system/lib/hw/keystore.exynos3475.so \
-    vendor/samsung/o5prolte/proprietary/lib/hw/memtrack.exynos3.so:system/lib/hw/memtrack.exynos3.so \
+    vendor/samsung/o5prolte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/o5prolte/proprietary/lib/hw/sensors.universal3475.so:system/lib/hw/sensors.universal3475.so \
-    vendor/samsung/o5prolte/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
-    vendor/samsung/o5prolte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-    vendor/samsung/o5prolte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/o5prolte/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     vendor/samsung/o5prolte/proprietary/lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
     vendor/samsung/o5prolte/proprietary/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
@@ -72,10 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o5prolte/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
     vendor/samsung/o5prolte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/o5prolte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
-    vendor/samsung/o5prolte/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
-    vendor/samsung/o5prolte/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
     vendor/samsung/o5prolte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    vendor/samsung/o5prolte/proprietary/lib/libmpp.so:system/lib/libmpp.so \
     vendor/samsung/o5prolte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/o5prolte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/o5prolte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
