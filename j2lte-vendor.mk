@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j2lte/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
     vendor/samsung/j2lte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/j2lte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    vendor/samsung/j2lte/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
     vendor/samsung/j2lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/j2lte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/j2lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \

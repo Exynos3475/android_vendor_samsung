@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),exynos3475-common)
+ifeq ($(TARGET_DEVICE),j2lte)
 
 endif
