@@ -75,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j1xlte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/j1xlte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j1xlte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/j1xlte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/j1xlte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/j1xlte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/j1xlte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
