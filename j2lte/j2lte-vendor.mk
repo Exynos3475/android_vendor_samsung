@@ -103,7 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j2lte/proprietary/lib/hw/audio.primary.universal3475.so:system/lib/hw/audio.primary.universal3475.so \
     vendor/samsung/j2lte/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/j2lte/proprietary/lib/libcodecdump.so:system/lib/libcodecdump.so \
-    vendor/samsung/j2lte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/ib_DNSe_NRSS_ver226.so \
+    vendor/samsung/j2lte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
     vendor/samsung/j2lte/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
     vendor/samsung/j2lte/proprietary/lib/libSamsungAPVoiceEngine.so:system/lib/libSamsungAPVoiceEngine.so \
     vendor/samsung/j2lte/proprietary/lib/libsamsungDiamondVoice.so:system/lib/libsamsungDiamondVoice.so \
