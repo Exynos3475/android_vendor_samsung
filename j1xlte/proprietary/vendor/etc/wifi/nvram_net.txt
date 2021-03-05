@@ -1,4 +1,4 @@
-# NVRAM file for New A3 Rev0.1 murata filter matching value - 20151029
+# NVRAM file for O5 Rev0.0 EMUL board - 20150827
 # 2.4 GHz, 20 MHz BW mode
 
 # The following parameter values are just placeholders, need to be updated.
@@ -18,7 +18,6 @@ nocrc=1
 ag0=0
 aa2g=1
 ccode=GB
-regrev=6
 
 pa0itssit=0x20
 extpagain2g=0
@@ -33,11 +32,11 @@ AvVmid_c0=0x0,0xc8
 cckpwroffset0=0
 
 # PPR params
-maxp2ga0=72
+maxp2ga0=76
 txpwrbckof=6
 cckbw202gpo=0
-legofdmbw202gpo=0x66666666
-mcsbw202gpo=0x44444444
+legofdmbw202gpo=0x88888888
+mcsbw202gpo=0x88888888
 propbw202gpo=0xdd
 # OFDM IIR :
 ofdmdigfilttype=17
@@ -58,7 +57,7 @@ muxenab=0x10
 #cldo_pwm=0x4
 
 #VCO freq 326.4MHz
-spurconfig=0x3
+spurconfig=0x3 
 
 #edonthd20l = -65
 #edoffthd20ul = -71
@@ -70,10 +69,6 @@ edoffthd20ul=-71
 txpwroffset2g=0,0,0,0,0,0,0,0,0,0,0,0,0
 rssicornorm=-2
 #CH12 CH13 Power Limit
-fccpwrch12=30
-fccpwrch13=30
-fccpwroverride=0
-
-#Two-range TSSI on 2g_0x90:4dBm 0xa0:8dBm 0xa8:10dBm 0xb8:14 dBm
-dynamicsarctrl_2g=0xb4
-
+#fccpwrch12=20
+#fccpwrch13=1
+#fccpwroverride=0  
