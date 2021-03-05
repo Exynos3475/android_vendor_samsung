@@ -18,13 +18,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/j1xlte
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/j1xlte/proprietary/vendor/app/020a0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/020a0000000000000000000000000000.drbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/FFFFFFFF000000000000000000000001.drbin:$(TARGET_COPY_OUT_VENDOR)/app/FFFFFFFF000000000000000000000001.drbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
-    vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/02010000080300030000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/02010000080300030000000000000000.tlbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07060000000000000000000000000000.tlbin \
-    vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/08130000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/08130000000000000000000000000000.tlbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000004.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000005.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
@@ -36,8 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000017.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000019.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
-    vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000021.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000021.tlbin \
-    vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000041.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/j1xlte/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
@@ -51,10 +46,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j1xlte/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/j1xlte/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
     vendor/samsung/j1xlte/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
-    vendor/samsung/j1xlte/proprietary/lib/hw/camera.vendor.universal7580.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.universal7580.so \
-    vendor/samsung/j1xlte/proprietary/lib/hw/nfc_nci.universal7580.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/nfc_nci.universal7580.so \
-    vendor/samsung/j1xlte/proprietary/lib/hw/sensors.universal7580.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.universal7580.so \
+    vendor/samsung/j1xlte/proprietary/lib/hw/camera.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.exynos5.so \
+    vendor/samsung/j1xlte/proprietary/lib/hw/sensors.universal3475.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.universal3475.so \
     vendor/samsung/j1xlte/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera.so \
+    vendor/samsung/j1xlte/proprietary/lib/libexynoscameraexternal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscameraexternal.so \
     vendor/samsung/j1xlte/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so \
     vendor/samsung/j1xlte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
     vendor/samsung/j1xlte/proprietary/lib/libsensorservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorservice.so \
@@ -151,10 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j1xlte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
     vendor/samsung/j1xlte/proprietary/vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     vendor/samsung/j1xlte/proprietary/vendor/firmware/bcm43438A1_V0055.0244.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm43438A1_V0055.0244.hcd \
-    vendor/samsung/j1xlte/proprietary/vendor/firmware/fimc_is_fd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fd.bin \
-    vendor/samsung/j1xlte/proprietary/vendor/firmware/fimc_is_fw2_3l2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_3l2.bin \
-    vendor/samsung/j1xlte/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
-    vendor/samsung/j1xlte/proprietary/vendor/firmware/ram_patch.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/ram_patch.fw \
-    vendor/samsung/j1xlte/proprietary/vendor/firmware/sec_s3fwrn5s_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3fwrn5s_firmware.bin \
-    vendor/samsung/j1xlte/proprietary/vendor/firmware/setfile_3l2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3l2.bin \
-    vendor/samsung/j1xlte/proprietary/vendor/firmware/setfile_5e3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_5e3.bin
+    vendor/samsung/j1xlte/proprietary/vendor/firmware/es305_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/es305_fw.bin \
+    vendor/samsung/j1xlte/proprietary/vendor/firmware/es305_fw_bypass.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/es305_fw_bypass.bin \
+    vendor/samsung/j1xlte/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin
