@@ -46,12 +46,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j1xlte/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/j1xlte/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
     vendor/samsung/j1xlte/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
-    vendor/samsung/j1xlte/proprietary/lib/hw/camera.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.exynos5.so \
+    vendor/samsung/j1xlte/proprietary/lib/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.exynos5.so \
     vendor/samsung/j1xlte/proprietary/lib/hw/sensors.universal3475.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.universal3475.so \
-    vendor/samsung/j1xlte/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera.so \
     vendor/samsung/j1xlte/proprietary/lib/libexynoscameraexternal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscameraexternal.so \
     vendor/samsung/j1xlte/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so \
     vendor/samsung/j1xlte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
+    vendor/samsung/j1xlte/proprietary/lib/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstlport.so \
+    vendor/samsung/j1xlte/proprietary/lib/libcutils_symbol.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcutils_symbol.so \
     vendor/samsung/j1xlte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
     vendor/samsung/j1xlte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
     vendor/samsung/j1xlte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
