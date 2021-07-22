@@ -148,5 +148,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j1xlte/proprietary/vendor/firmware/es305_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/es305_fw.bin \
     vendor/samsung/j1xlte/proprietary/vendor/firmware/es305_fw_bypass.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/es305_fw_bypass.bin \
     vendor/samsung/j1xlte/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
-    vendor/samsung/j1xlte/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvverx.so \
-    vendor/samsung/j1xlte/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so
+    vendor/samsung/j1xlte/proprietary/vendor/lib/soundfx/liblvverx_3.27.02.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvverx_3.27.02.so \
+    vendor/samsung/j1xlte/proprietary/vendor/lib/soundfx/liblvvetx_3.27.02.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvvetx_3.27.02.so
