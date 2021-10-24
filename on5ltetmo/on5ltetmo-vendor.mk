@@ -41,6 +41,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on5ltetmo/proprietary/vendor/bin/sswap:$(TARGET_COPY_OUT_VENDOR)/bin/sswap \
     vendor/samsung/on5ltetmo/proprietary/etc/plmn_se13.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_se13.bin \
     vendor/samsung/on5ltetmo/proprietary/etc/plmn_delta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_delta.bin \
+    vendor/samsung/on5ltetmo/proprietary/etc/firmware/audience-es804-data.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/audience-es804-data.bin \
+    vendor/samsung/on5ltetmo/proprietary/etc/firmware/audience-es804-fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/audience-es804-fw.bin \
     vendor/samsung/on5ltetmo/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/on5ltetmo/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/on5ltetmo/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
