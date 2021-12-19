@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j1xlte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/j1xlte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/j1xlte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/j1xlte/proprietary/lib/hw/camera.exynos3.so:system/lib/hw/camera.exynos5.so \
+    vendor/samsung/j1xlte/proprietary/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
     vendor/samsung/j1xlte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/j1xlte/proprietary/lib/hw/sensors.universal3475.so:system/lib/hw/sensors.universal3475.so \
     vendor/samsung/j1xlte/proprietary/lib/libexynoscameraexternal.so:system/lib/libexynoscameraexternal.so \
