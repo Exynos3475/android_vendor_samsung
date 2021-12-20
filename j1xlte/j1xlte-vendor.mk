@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j1xlte/proprietary/lib/libexynoscameraexternal.so:system/lib/libexynoscameraexternal.so \
     vendor/samsung/j1xlte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/j1xlte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    vendor/samsung/j1xlte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
     vendor/samsung/j1xlte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j1xlte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j1xlte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
