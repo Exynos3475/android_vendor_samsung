@@ -37,87 +37,31 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j2lte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     vendor/samsung/j2lte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/j2lte/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/j2lte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
-    vendor/samsung/j2lte/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/j2lte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/j2lte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/j2lte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
-    vendor/samsung/j2lte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/j2lte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/j2lte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/j2lte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/j2lte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/j2lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/j2lte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/samsung/j2lte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/samsung/j2lte/proprietary/lib/hw/camera.exynos3.so:system/lib/hw/camera.exynos5.so \
+    vendor/samsung/j2lte/proprietary/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
     vendor/samsung/j2lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/j2lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j2lte/proprietary/lib/hw/sensors.universal3475.so:system/lib/hw/sensors.universal3475.so \
-    vendor/samsung/j2lte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    vendor/samsung/j2lte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
-    vendor/samsung/j2lte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/j2lte/proprietary/lib/libexynoscameraexternal.so:system/lib/libexynoscameraexternal.so \
-    vendor/samsung/j2lte/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-    vendor/samsung/j2lte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-    vendor/samsung/j2lte/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
-    vendor/samsung/j2lte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/j2lte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/j2lte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    vendor/samsung/j2lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/j2lte/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/j2lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/samsung/j2lte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
     vendor/samsung/j2lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j2lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/j2lte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/j2lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/j2lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/j2lte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-    vendor/samsung/j2lte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/j2lte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/j2lte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/samsung/j2lte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/j2lte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/j2lte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/j2lte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/j2lte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/j2lte/proprietary/vendor/firmware/bcm43438A1_V0055.0244.hcd:system/vendor/firmware/bcm43438A1_V0055.0244.hcd \
     vendor/samsung/j2lte/proprietary/vendor/firmware/es305_fw.bin:system/vendor/firmware/es305_fw.bin \
     vendor/samsung/j2lte/proprietary/vendor/firmware/es305_fw_bypass.bin:system/vendor/firmware/es305_fw_bypass.bin \
-    vendor/samsung/j2lte/proprietary/vendor/firmware/fimc_is_fd.bin:system/vendor/firmware/fimc_is_fd.bin \
-    vendor/samsung/j2lte/proprietary/vendor/firmware/fimc_is_lib_isp.bin:system/vendor/firmware/fimc_is_lib_isp.bin \
     vendor/samsung/j2lte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/j2lte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/j2lte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
     vendor/samsung/j2lte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
-    vendor/samsung/j2lte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
-    vendor/samsung/j2lte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
-    vendor/samsung/j2lte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
-    vendor/samsung/j2lte/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
     vendor/samsung/j2lte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    vendor/samsung/j2lte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/j2lte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/j2lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/j2lte/proprietary/lib/hw/audio.playback_record.default.so:system/lib/hw/audio.playback_record.default.so \
-    vendor/samsung/j2lte/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    vendor/samsung/j2lte/proprietary/lib/hw/audio.primary.universal3475.so:system/lib/hw/audio.primary.universal3475.so \
-    vendor/samsung/j2lte/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
-    vendor/samsung/j2lte/proprietary/lib/libcodecdump.so:system/lib/libcodecdump.so \
-    vendor/samsung/j2lte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
-    vendor/samsung/j2lte/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
-    vendor/samsung/j2lte/proprietary/lib/libSamsungAPVoiceEngine.so:system/lib/libSamsungAPVoiceEngine.so \
-    vendor/samsung/j2lte/proprietary/lib/libsamsungDiamondVoice.so:system/lib/libsamsungDiamondVoice.so \
-    vendor/samsung/j2lte/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
-    vendor/samsung/j2lte/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
-    vendor/samsung/j2lte/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
-    vendor/samsung/j2lte/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-    vendor/samsung/j2lte/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
-    vendor/samsung/j2lte/proprietary/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
-    vendor/samsung/j2lte/proprietary/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
-    vendor/samsung/j2lte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
-    vendor/samsung/j2lte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
-    vendor/samsung/j2lte/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
-    vendor/samsung/j2lte/proprietary/lib/lib_SoundBooster_ver610.so:system/lib/lib_SoundBooster_ver610.so \
-    vendor/samsung/j2lte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/samsung/j2lte/proprietary/lib/libtwomicinterface.so:system/lib/libtwomicinterface.so \
-    vendor/samsung/j2lte/proprietary/lib/libunshorten.so:system/lib/libunshorten.so
+    vendor/samsung/j2lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
