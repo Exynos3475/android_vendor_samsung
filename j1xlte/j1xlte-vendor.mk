@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j1xlte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     vendor/samsung/j1xlte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/j1xlte/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/j1xlte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/j1xlte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/j1xlte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/j1xlte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
@@ -51,6 +52,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j1xlte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/j1xlte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/j1xlte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
+    vendor/samsung/j1xlte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/j1xlte/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/j1xlte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j1xlte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j1xlte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j1xlte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
